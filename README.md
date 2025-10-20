@@ -30,18 +30,18 @@ The workflow covers the full cycle: from raw sequencing files (`*.fq.gz`) to ann
 
 ## Requirements
 NGS pipeline part (install script to be added):
-   fastp trimmer
-   BWA-MEM2 aligner
-   samtools toolkit
-   freebayes variant caller
-   GATK toolkit
-   DeepVariant Docker variant caller
-   bcftools vcf toolkit
-   cnvkit CNV caller
-   ClassifyCNV software
-   ANNOVAR + ACMG databases
-   TAPES classifier
-   Python (Pandas+argparse) + Bash
+ -  fastp trimmer
+ -  BWA-MEM2 aligner
+ -  samtools toolkit
+ -  freebayes variant caller
+ -  GATK toolkit
+ -  DeepVariant Docker variant caller
+ -  bcftools vcf toolkit
+ -  cnvkit CNV caller
+ -  ClassifyCNV software
+ -  ANNOVAR + ACMG databases
+ -  TAPES classifier
+ -  Python (Pandas+argparse) + Bash
 ## Usage
 
 ### 1. Bioinformatics pipeline
